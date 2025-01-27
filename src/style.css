@@ -1,0 +1,48 @@
+
+@keyframes animated-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .bg-animated-gradient {
+    background: linear-gradient(45deg, #6EE7B7, #3B82F6, #9333EA);
+    background-size: 300% 300%;
+    animation: animated-gradient 5s ease infinite;
+  }
+  
+  .dark .bg-animated-gradient {
+    background: linear-gradient(45deg, #4B5563, #1F2937, #111827);
+    background-size: 300% 300%;
+    animation: animated-gradient 5s ease infinite;
+  }
+  
+  @keyframes animate-heading {
+    0% {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+  }
+  
+  .animate-heading {
+    animation: animate-heading 3s ease-in-out infinite;
+  }
+  
+  h1 {
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow for a popping effect */
+  }
+  
