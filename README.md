@@ -1,8 +1,11 @@
-# User Directory
+# User Dashboard Management
 
-A simple React application for displaying user data with features such as search, sort, pagination, and dark/light mode toggle.
+A simple React application for creating, altering, deleting and displaying user data with features such as search, sort, pagination, and dark/light mode toggle.
 
 ## Features
+- **Add New User**: Adds new user by using POST method.
+- **Update**: Updates the user details of existing user.
+- **Delete**: Deletes the exisiting user.
 - **Search**: Search users by name.
 - **Sort**: Sort users in ascending or descending order.
 - **Pagination**: Displays 6 users per page with page navigation.
@@ -24,7 +27,7 @@ Follow these steps to download and run the project locally:
 First, clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/SudarshanaRao/user-directory.git
+git clone https://github.com/SudarshanaRao/user-dashboard-management.git
 ```
 
 ### 2. Navigate to the project folder
@@ -85,14 +88,11 @@ Contributions are welcome! Feel free to fork the repository, make your changes, 
 ## Screenshots
 
 ### LIGHT MODE 
-![Image-1](public/Image-1.png)
-
-![Light-User-Details](public/Ligh-User-Details.png)
+![Image-1](https://github.com/user-attachments/assets/189ff420-9e4a-4abb-83cf-3b5f4cb2fe49)
 
 ### DARK MODE
-![Dark-Mode](public/Dark-Mode.png)
+![Image-2](https://github.com/user-attachments/assets/654ead9e-e325-4abe-a6aa-c3a05c51732c)
 
-![Dark-Search](public/Dark-Search.png)
+![Image-3](https://github.com/user-attachments/assets/3dedf1d4-7760-41e3-9854-cc40da6e6837)
 
-![Dark-User-Details](public/Dark-User-Details.png)
-
+![Image-4](https://github.com/user-attachments/assets/de49f1ef-121b-4131-b493-b2efb9fc68cd)
